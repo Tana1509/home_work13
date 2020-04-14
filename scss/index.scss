@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1450px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 150px;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  font-size: 14px;
+  color: #555555;
+  min-height: 100vh;
+
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+section {
+  padding: 100px 0;
+}
+.header {
+padding: 40px 0;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0,0,0, 0.4) 100%), url(../img/BG1.png) no-repeat center/cover;
+}
+.header {
+  .logo {
+  font-size: 24px;
+  line-height: 1.3em;
+  color: #ffffff;
+  }
+}
+.header__burger {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.header__line {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #fff;
+}
+.header__line_middle {
+  margin: 5px 0;
+}
+.col-6 {
+  a {
+  line-height: px;
+  color: #ffffff;
+  margin-right: 30px;
+  transition: .3s;
+  }
+}
+  .col-6 a:not(:last-child) {
+    margin-right: 20px;
+  }
+h1 {
+  font-size: 48px;
+  line-height: 1.2em;
+  color: #ffffff  
+}
+.header {
+p {
+  font-size: 16px;
+  line-height: 1.2em;
+  color: #ffffff;
+  padding: 30px;
+}
+}
+.header__content {
+  margin: 250px 0;
+}
+.btn {
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  transition: .5s;
+} 
+.btn:hover {
+background: #fff;transform: scale(1.2);
+}
+.line {
+  position: relative;
+}
+.line::after {
+  content: "";
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: -30px;
+  left: 50%;
+  width: 50px;
+  height: 2px;
+  background: #555555;
+}
+.defaultsubtitle {
+  font-size: 16px;
+  line-height: 1.2em;
+  font-family: "Roboto Slab";  
+  padding: 60px;
+}
+// .servicies {
+//   .col-4 {
+// h3 {
+// padding: 25px 0 20px 0;}  }
+// }
+.servicies_item {
+    p {
+      line-height: 1.6em;
+      font-family: "Roboto Slab";
+      text-align: justify;
+      text-align-last: center;
+    }
+  }
+.about {
+  background: #f8f8f8;
+}
+.about_text {
+  p {
+    text-align: justify;
+    text-align-last: center;
+  }
+}
+.Dvfdsgdbrethymnyrj,
